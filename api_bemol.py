@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # routes
 
-# aggregate API entry
+# Rota principal da api
 @app.route('/fetch', methods=["GET"])
 def fetch():
     """
@@ -54,7 +54,7 @@ def fetch_customer_segment(customer_id):
 def load_data():
     global rfm_dict
     # Carrega a tabela rfm salva
-    rfm = pd.read_csv("rfm_table_no_outlier.csv", index_col=['CustomerID'])
+    rfm = pd.read_csv("customer_segment.csv", index_col=['CustomerID'])
     
     # Constroi dicionario para consulta rapida
     rfm_dict = rfm['RFM'].to_dict()
@@ -63,4 +63,4 @@ def load_data():
 if __name__ == "__main__":
     load_data()
 
-    app.run(host='localhost', debug=True, port=8081)
+    app.run(host='0.0.0.0', debug=True, port='8081')
