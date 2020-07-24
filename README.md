@@ -1,7 +1,7 @@
 # bemol-challenge
 Este projeto foi construído para o desafio para a vaga de AI Engineer na Bemol.
 
-Mais informações sobre o projeto podem ser encontradas no notebook `eda_e_segmentacao.ipynb`.
+Mais informações sobre o projeto podem ser encontradas nos notebooks `preprocessamento.ipynb` e `segmentacao.ipynb`.
 
 
 ## Requerimentos
