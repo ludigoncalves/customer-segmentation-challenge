@@ -1,11 +1,11 @@
-# bemol-challenge
+# customer-segmentation-challenge
 Este projeto foi construído para o desafio para a vaga de AI Engineer na Bemol.
 
 Mais informações sobre o projeto podem ser encontradas nos notebooks `preprocessamento.ipynb` e `segmentacao.ipynb`.
 
 ## Notebooks
 1. `preprocessamento.ipynb` - notebook usado para preprocessamento da base de dados Online Retail
-2. `segmentacao.ipynp` - notebook usado para aplicação de abordagens de segmentação: 1) A segmentação conhecida como RFM (Recency, Frequency and Monetary agrupadas), famosa no meio do Marketing e 2) A segmentação feita pelo método não supervisioado de aprendizado de maquina K-Means, com base nas métricas geradas para a classificação do RFM.
+2. `segmentacao.ipynp` - notebook usado para aplicação de abordagens de segmentação: 1) A segmentação conhecida como RFM (Recency, Frequency, and Monetary agrupadas), famosa no meio do Marketing e 2) A segmentação feita pelo método não supervisionado de aprendizado de maquina K-Means, com base nas métricas geradas para a classificação do RFM.
 
 ## Artefatos Gerados
 1. `customer_segment.csv` - arquivo gerado com segmentos para cada cliente gerado a partir do notebook `segmentacao.ipynp.
