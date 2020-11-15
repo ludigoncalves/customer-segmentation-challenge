@@ -13,13 +13,13 @@ Mais informações sobre o projeto podem ser encontradas nos notebooks `preproce
 
 
 ## Requerimentos
-* Este programa executa em python 3.7.4 e necessita das seguintes bibliotecas:
+* Este programa executa em python 3.7.4 e necessita das seguintes bibliotecas: <br>
 ***Para executar localmente***
   1. Flask - `pip install flask`
   2. Pandas - `pip install pandas`
   3. Executar API - `python api_bemol.py`
  
-* Instruções para execução do Docker
+* Instruções para execução do Docker <br>
 ***Para executar em um container Docker***
   1. Criar a imagem do container - `docker build --tag bemol_api .`
   2. Executar o container com a API - `docker run -p 8081:8081 bemol_api`
